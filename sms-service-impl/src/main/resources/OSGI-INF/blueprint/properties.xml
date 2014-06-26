@@ -8,8 +8,10 @@
     <cm:property-placeholder id="persist.placeholder" persistent-id="camel.blueprint">
         <!-- list some properties for this test -->
         <cm:default-properties>
-            <cm:property name="sms.endpoint.address" value="http://0.0.0.0"/>
-            <cm:property name="sms.endpoint.port" value="8090"/>
+        <!-- For local camel:run -->
+			<cm:property name="sms.endpoint.address" value="http://localhost:8090"/> 
+		<!-- For remote run on Karaf -->
+            <!-- <cm:property name="sms.endpoint.address" value=""/>  -->
             <cm:property name="sms.endpoint.name" value="smsinfo"/>
         </cm:default-properties>
     </cm:property-placeholder>

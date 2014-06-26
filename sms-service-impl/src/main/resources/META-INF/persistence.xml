@@ -11,9 +11,9 @@
 			<property name="hibernate.format_sql" value="true"/>  
 			<property name="jboss.entity.manager.factory.jndi.name" value="java:/camelDsEntityManagerFactory"/>			  
 			<property name="hibernate.connection.driver_class" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
-			<property name="hibernate.connection.url" value="jdbc:sqlserver://someurl"/>  
-			<property name="hibernate.connection.username" value="someuser"/>
-			<property name="hibernate.connection.password" value="somepass"/>
+			<property name="hibernate.connection.url" value="jdbc:sqlserver://dev-db.np.ua:1433;databaseName=dev_snp"/>  
+			<property name="hibernate.connection.username" value="sms_info_user_dev"/>
+			<property name="hibernate.connection.password" value="4wGirrUoLD2U"/>
 		</properties>  
 	</persistence-unit> 
 </persistence>
